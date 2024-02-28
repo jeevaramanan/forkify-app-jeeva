@@ -134,4 +134,4 @@ const init = function () {
   const storedata = localStorage.getItem('bookmarks');
   if (storedata) state.bookmarks = JSON.parse(storedata);
 };
-init();
+// init();
