@@ -1,5 +1,6 @@
 import { getJSON, sendJSON } from './helper';
 import { SRH_URL, API_URL, PAGECOUNT } from './config';
+import { Fraction } from 'fractional';
 
 export const state = {
   recipe: {},
