@@ -7,6 +7,7 @@ import paginationView from './views/paginationView.js';
 import recipeView from './views/recipeView.js';
 import bookmarView from './views/bookmarView.js';
 import uploadView from './views/uploadView.js';
+import { Fraction } from 'fractional';
 
 console.log(icons);
 
