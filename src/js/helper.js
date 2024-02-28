@@ -1,4 +1,5 @@
 import { API_URL, TIME_OUT } from './config';
+import { Fraction } from 'fractional';
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
